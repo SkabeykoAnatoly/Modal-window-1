@@ -2,7 +2,6 @@
     padding: 0;
     margin: 0;
 }
-
 .modal {
     position: fixed;
     top: 0;
@@ -14,12 +13,10 @@
     display: none;
     z-index: 999;
 }
-
 .modal:target {
     display: block;
     pointer-events: auto;
 }
-
 .popup {
     width: 500px;
     position: relative;
@@ -27,7 +24,6 @@
     padding: 20px;
     background-color: #fff;
 }
-
 .close  {
     width: 30px;
     height: 30px;
